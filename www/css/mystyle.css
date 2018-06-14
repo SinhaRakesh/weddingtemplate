@@ -1,0 +1,166 @@
+ /*Define Your Custom CSS*/
+/*logo-purple: # 270030*/
+/*light color: #7952b3*/
+/*dark color:#5925a4*/
+
+.menu-navbar.navbar-default{
+ 	background-color: #270030 !important;
+ 	border-color: #FFF !important;
+ 	margin: 0px;
+ 	border-radius: 0px !important;
+ 	border:0px;
+ }
+
+.menu-navbar.navbar-default .nav.navbar-nav{
+	margin-top: 35px;
+}
+
+.menu-navbar.navbar-default .nav.navbar-nav a{
+	color: #FFF;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.menu-navbar.navbar-default .nav.navbar-nav a:hover{
+	background-color: #FFF;
+	color: #7952b3;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.navbar-brand-wrapper img{
+	width:200px;
+}
+
+
+.how-it-works{
+	padding:80px 0px 40px;
+}
+
+/*.how-it-works .info-section i{
+	height: 150px;
+	background: #7952b3;
+}*/
+
+.how-it-works .info-section .xepan-cms-container{
+	height: 150px;
+	width: 150px !important;
+	background-color: #7952b3;
+	color: white;
+	border-radius: 50%;
+	border: 5px solid #5925a4;
+}
+
+.how-it-works .info-section .xepan-cms-container:hover{
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	background-color: #5925a4;
+
+	-webkit-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-ms-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-o-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-moz-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.how-it-works .info-section .xepan-cms-container:hover i{
+	transform: rotate(360deg);
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.how-it-works .info-section .xepan-cms-container i{
+	margin-top: 30%;
+}
+
+.how-it-works .info-section{
+	padding-top: 0px;
+}
+
+.how-it-works .info-section h4{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.section-color2{
+	/*background-color: */
+}
+
+.boxed-property-column .image-outer{
+	min-height: 292px;
+	max-width: 292px;
+}
+
+.recent-events{
+	
+}
+
+.contactbar .atk-form-row {
+	width:25%;
+	float: left;
+}
+
+.contactbar .atk-actions {
+	clear: both;
+}
+
+.contactbar{
+	padding:2%;
+	color: white;
+}
+
+.contactbar input{
+	background: transparent !important;
+}
+
+.contactbar input:hover{
+	border:1px solid #f3f3f3 !important;
+}
+
+.contactbar button{
+	padding: 9px 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+	background: white;
+	color: #7952b3 !important;
+	font-size: 12px;
+	font-weight: 400;
+	border: 2px solid #7952b3 !important;
+	border-radius: 22px;
+	display: inline-block;
+}
+
+.contactbar button:hover{
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	background-color: #f3f3f3;
+
+	-webkit-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-ms-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-o-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	-moz-box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);
+	box-shadow:0px 0px 7px 1px rgba(0,0,0,0.20);	
+}
+
+.recent-event img{
+	width:100%;
+	height: 300px;
+}
+
+.how-it-work-section{
+}
+
+.about-section{
+}
