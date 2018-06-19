@@ -1,5 +1,5 @@
  /*Define Your Custom CSS*/
-/*logo-purple: # 270030*/
+/*logo-purple: #270030*/
 /*light color: #7952b3*/
 /*dark color:#5925a4*/
 
@@ -244,4 +244,20 @@ body > p{
 
 .portfolio_items li.portfolio{
 	height: 250px;
+}
+
+.page-title .bread-crumb a:hover, .page-title .bread-crumb a.current{
+	color:white !important;
+}
+
+.homemodal .modal-body{
+	padding: 0px;
+	margin-top: 0px;
+}
+.modal-body .xepan-cms-container{
+	width:100% !important;
+}
+
+.modal-body .contactbar{
+	margin-top: 0px !important;
 }
