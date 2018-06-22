@@ -261,3 +261,27 @@ body > p{
 .modal-body .contactbar{
 	margin-top: 0px !important;
 }
+
+.enquiry-button{
+	position: fixed;
+	top:40%;
+	left:92%;
+	z-index: 99999 !important;
+	border: 3px solid white;
+	box-shadow:5px 2px 3px 5px rgba(255,255,255);
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.enquiry-button:hover{
+	left:91%;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	box-shadow:none;
+}
