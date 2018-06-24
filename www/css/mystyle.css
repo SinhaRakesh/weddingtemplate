@@ -262,13 +262,13 @@ body > p{
 	margin-top: 0px !important;
 }
 
-.enquiry-button{
+.xpopup_trigger{
 	position: fixed;
 	top:40%;
 	left:92%;
 	z-index: 99999 !important;
-	border: 3px solid white;
-	box-shadow:5px 2px 3px 5px rgba(255,255,255);
+	border: 5px solid white !important;
+	/*box-shadow:5px 2px 3px 5px rgba(255,255,255);*/
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -276,7 +276,8 @@ body > p{
 	-o-transition:all 0.3s ease;
 }
 
-.enquiry-button:hover{
+.xpopup_trigger:hover
+{
 	left:91%;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -284,4 +285,7 @@ body > p{
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
 	box-shadow:none;
+}
+.enquiry-button label,.enquiry-button b, .enquiry-button input,.enquiry-button text,.enquiry-button select {
+	color:#270030 !important;
 }
